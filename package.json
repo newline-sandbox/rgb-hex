@@ -1,0 +1,30 @@
+{
+  "name": "rgb-hex-jestless",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "A library without Jest!",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typeScript",
+    "rgb",
+    "hexadecimal",
+    "color"
+  ],
+  "author": "Ken Chan <kenchandev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newline-sandbox/rgb-hex.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}
